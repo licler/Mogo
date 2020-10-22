@@ -15,13 +15,13 @@ $(function () {
 
     });
 
-    $('.slider__items').slick({
-        autoplay: true,
-        arrows: false,
-        slidesToShow: 4,
-        slidesToScroll: 1
+    // $('.slider__items').slick({
+    //     autoplay: true,
+    //     arrows: false,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1
 
-    });
+    // });
 
 
 });
