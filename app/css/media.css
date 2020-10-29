@@ -449,15 +449,17 @@
     .team__desc {
         width: 500px;
     }
-    
+
 }
+
 @media (max-width: 685px) {
     .partners-list {
         flex-wrap: wrap;
-     }
-     .partners-list li {
-         padding: 5px 0px;
-     }
+    }
+
+    .partners-list li {
+        padding: 5px 0px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -475,21 +477,24 @@
         width: 300px;
         height: auto;
     }
+
     .team-box__img img {
         width: 300px;
         height: auto;
     }
+
     .team-social {
         width: 50px;
         height: 50px;
     }
+
     .icon-facebook,
     .icon-twitter,
     .icon-pinterest1,
     .icon-instagram {
         font-size: 30px;
     }
-   
+
 }
 
 /* end team */
@@ -499,27 +504,50 @@
     .work-items {
         flex-wrap: wrap;
     }
+
     .work-col {
-        
+
         width: 100%;
     }
+
     .work-box img {
         width: 100%;
     }
+
     .work-box {
         width: 100%;
     }
 }
+
 @media (max-width: 950px) {
-    
+
     .work-col {
         flex: none;
         width: 50%;
     }
 }
+
 @media (max-width: 320px) {
     .work-col {
         width: 100%;
     }
 }
+
 /* end work */
+
+/* start epigraph */
+@media (max-width: 830px) {
+    .epigraph-box {
+        flex-wrap: wrap;
+    }
+   
+    .epigraph-box__images img {
+        width: 150px;
+    }
+    .epigraph-box__text {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+/* end epigraph */

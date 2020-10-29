@@ -11,7 +11,15 @@ $(function () {
 
         prevArrow: '<button type="button" class="slick-btn slick-prev"><img src="images/previous.png" alt=""></button>',
         nextArrow: '<button type="button" class="slick-btn slick-next"><img src="images/next.png" alt=""></button>',
-        autoplay: true
+        autoplay: true,
+        responsive: [
+            {
+              breakpoint: 830,
+              settings: {
+                arrows: false
+              }
+            }
+        ]
 
     });
     $('.advantages__item-title').on('click', function() {
@@ -30,5 +38,7 @@ $(function () {
         $('.menu__list').slideToggle ();
     })
 
+
+    
 
 });
