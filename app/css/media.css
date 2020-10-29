@@ -495,6 +495,31 @@
 /* end team */
 
 /* start work */
-
-
+@media (max-width: 1180px) {
+    .work-items {
+        flex-wrap: wrap;
+    }
+    .work-col {
+        
+        width: 100%;
+    }
+    .work-box img {
+        width: 100%;
+    }
+    .work-box {
+        width: 100%;
+    }
+}
+@media (max-width: 950px) {
+    
+    .work-col {
+        flex: none;
+        width: 50%;
+    }
+}
+@media (max-width: 320px) {
+    .work-col {
+        width: 100%;
+    }
+}
 /* end work */
