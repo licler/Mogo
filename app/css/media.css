@@ -540,14 +540,80 @@
     .epigraph-box {
         flex-wrap: wrap;
     }
-   
+
     .epigraph-box__images img {
         width: 150px;
     }
+
     .epigraph-box__text {
         font-size: 20px;
         text-align: center;
     }
+
+    .epigraph-box__content {
+        padding: 0px 30px;
+    }
+}
+
+@media (max-width: 780px) {
+    .epigraph-box__images {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .epigraph-box__text {
+        font-size: 15px;
+    }
+
+    .epigraph-box__author {
+        font-size: 20px;
+    }
 }
 
 /* end epigraph */
+
+/* start clients */
+@media (max-width: 570px) {
+    .clients-box {
+        display: block;
+        width: 100%;
+    }
+
+    .clients-box__image {
+        justify-content: center;
+    }
+
+    .clients-box__name {
+        text-align: center;
+    }
+
+    .clients-box__position {
+        text-align: center;
+    }
+
+    .clients-box__position::after {
+        display: none;
+    }
+
+    .clients-box__text {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 25px;
+    }
+}
+/* @media (max-width: 450px) {
+    .clients-box__text {
+        width: 300px;
+    }
+}
+@media (max-width: 380px) {
+    .clients-box__text {
+        width: 250px;
+    }
+} */
+
+
+/* end clients */
