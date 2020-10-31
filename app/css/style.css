@@ -1494,7 +1494,7 @@ hr {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     color: #999999;
-    top: 50%;
+    top: -5px;
     left: 25px;
     transform: translateY(-60%);
 
@@ -1608,7 +1608,6 @@ hr {
 .footer-btn {
     width: 150px;
     padding: 7px 30px;
-    /* margin-left: -4px; */
     background-color: #95e1d3;
     border: none;
     color: #fff;
@@ -1756,7 +1755,15 @@ hr {
     display: flex;
     justify-content: space-between;
 }
-
+.footer-item__social {
+    width: 480px;
+}
+.footer-item__blogs {
+    width: 378px;
+}
+.footer-item__insta {
+    width: 270px;
+}
 .footer__insta-title {
     font-size: 13px;
     color: #333333;
