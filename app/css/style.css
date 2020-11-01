@@ -74,7 +74,16 @@ body {
     background-size: cover;
     background-position: center;
 }
-
+.header__main {
+    position: fixed;
+    background-color:#f58888;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transform: translate3d(0, 0, 0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .4);
+}
 .container {
     width: 100%;
     max-width: 1200px;
@@ -95,7 +104,7 @@ a {
 .header__top {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 170px;
+    /* margin-bottom: 170px; */
     padding: 30px 0px;
 }
 
@@ -108,6 +117,7 @@ a {
     font-weight: 400;
     font-size: 14px;
     color: #fff;
+    
 
 }
 .menu__big-btn {
@@ -144,12 +154,10 @@ a {
     background-color: #fce38a;
     margin-top: 10px;
     display: none;
-
 }
 
 .menu-link:hover:after {
     display: block;
-
 }
 
 .menu-link:hover {
@@ -193,6 +201,7 @@ a {
 }
 
 .header__text {
+    padding-top: 170px;
     font-family: 'Kaushan Script', cursive;
     font-size: 72px;
     color: #fff;
@@ -1071,10 +1080,14 @@ hr {
 
 .work-items {
     display: flex;
+    justify-content: center;
 }
 
 .work-col {
     line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .work__text {
@@ -1108,9 +1121,6 @@ hr {
 }
 
 
-.work-col {
-    flex: 1 1 0;
-}
 
 .work-item {
 
